@@ -60,6 +60,20 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SPI1_CS_Pin GPIO_PIN_4
 #define SPI1_CS_GPIO_Port GPIOA
+#define SPI_CHC_Pin GPIO_PIN_0
+#define SPI_CHC_GPIO_Port GPIOB
+#define SPI_CHC_EXTI_IRQn EXTI0_IRQn
+#define SDIO_CHC_Pin GPIO_PIN_1
+#define SDIO_CHC_GPIO_Port GPIOB
+#define SDIO_CHC_EXTI_IRQn EXTI1_IRQn
+#define SDIO_LED_Pin GPIO_PIN_14
+#define SDIO_LED_GPIO_Port GPIOB
+#define SPI1_LED_Pin GPIO_PIN_7
+#define SPI1_LED_GPIO_Port GPIOB
+#define SPI1_CD_Pin GPIO_PIN_8
+#define SPI1_CD_GPIO_Port GPIOB
+#define SDIO_CD_Pin GPIO_PIN_0
+#define SDIO_CD_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
